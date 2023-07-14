@@ -3,7 +3,7 @@ import { Integer, Operator, Float, Declaration, Variable, Boolean, Comparision, 
 
 class Lexer {
     static digits = "0123456789.";
-    static alphabates = "abcdefghijklmnopqrstuvwxyz"
+    static alphabates = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     static operators = "+-*/%()=";
     static declarations = ["take"];
     static booleanOperators = ["and", "or", "not"];
